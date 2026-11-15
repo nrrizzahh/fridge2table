@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fridge2Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Fridge2Table</h1>
+    <p>냉장고 재료를 입력하고 맞춤형 레시피와 예산을 관리하세요!</p>
+    
+    <div class="input-section">
+        <input type="text" id="ingredientInput" placeholder="재료 입력 (예: 계란, 양파)">
+        <input type="text" id="quantityInput" placeholder="수량 입력 (예: 1개, 500g)">
+        <button onclick="addIngredient()">재료 추가</button>
+    </div>
+
+    <ul id="ingredientList"></ul>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
